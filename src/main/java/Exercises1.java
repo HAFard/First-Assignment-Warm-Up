@@ -4,11 +4,6 @@ public class Exercises1 {
      */
     public static long factorial(int n) {
         int FactorialAns = 1;
-        /*if (n==0 | n==1)
-        {
-            FactorialAns = 1;
-        }
-        else*/
         if (n>1)
         {
             for(int i=n;i>1;i--)
