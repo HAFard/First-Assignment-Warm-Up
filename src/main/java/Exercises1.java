@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Exercises1 {
     /*
     implement a function that returns factorial of given n
@@ -47,16 +49,26 @@ public class Exercises1 {
     *****
 
      */
-    public char[][] generateTriangle(int rows) {
-        // TODO
-        return null;
+    public static char[][] generateTriangle(int rows) {
+        char [][] Triangle = new char[rows][];
+        for (int i = 0; i<Triangle.length ; i++)
+        {
+            Triangle[i] = new char[i+1] ;
+            for (int j = 0 ; j<=i ; j++)
+            {
+                Triangle[i][j] = '*' ;
+            }
+
+        }
+        return Triangle;
     }
 
 
     public static void main(String[] args) {
-        int input = 20;
+        int input = 4;
         System.out.println(factorial(input));
         System.out.println(fibonacci(input));
+        System.out.println(Arrays.deepToString(generateTriangle(input)));
     }
 
 }

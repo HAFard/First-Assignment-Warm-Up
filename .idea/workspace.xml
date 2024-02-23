@@ -41,6 +41,9 @@
     "JUnit.Test2.fibonacciSample2.executor": "Run",
     "JUnit.Test2.fibonacciSample3.executor": "Run",
     "JUnit.Test3.executor": "Run",
+    "JUnit.Test3.testGenerateTriangleWithFiveRows.executor": "Run",
+    "JUnit.Test3.testGenerateTriangleWithThreeRows.executor": "Run",
+    "JUnit.Test3.testGenerateTriangleWithZeroRows.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -58,40 +61,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First-Assignment-Warm-Up" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.fibonacciBigIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test3.testGenerateTriangleWithFiveRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First-Assignment-Warm-Up" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="fibonacciBigIndex" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" value="testGenerateTriangleWithFiveRows" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.fibonacciSample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test3.testGenerateTriangleWithThreeRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First-Assignment-Warm-Up" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="fibonacciSample2" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" value="testGenerateTriangleWithThreeRows" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.fibonacciSample3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test3.testGenerateTriangleWithZeroRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First-Assignment-Warm-Up" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="fibonacciSample3" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" value="testGenerateTriangleWithZeroRows" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,10 +103,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Exercises1" />
-        <item itemvalue="JUnit.Test2" />
-        <item itemvalue="JUnit.Test2.fibonacciBigIndex" />
-        <item itemvalue="JUnit.Test2.fibonacciSample3" />
-        <item itemvalue="JUnit.Test2.fibonacciSample2" />
+        <item itemvalue="JUnit.Test3" />
+        <item itemvalue="JUnit.Test3.testGenerateTriangleWithFiveRows" />
+        <item itemvalue="JUnit.Test3.testGenerateTriangleWithZeroRows" />
+        <item itemvalue="JUnit.Test3.testGenerateTriangleWithThreeRows" />
       </list>
     </recent_temporary>
   </component>
@@ -125,5 +128,16 @@
       <workItem from="1708551861414" duration="318000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
